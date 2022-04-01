@@ -192,3 +192,10 @@ footer a:hover {
 footer .list-inline .list-inline-item {
     padding: 10px 15px;
 }
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
