@@ -65,3 +65,10 @@ font-family: fantasy;
     background-color: black;
     border-color: red;
    } 
+
+
+
+.logo img {
+    width: 100px;
+    height: 60px;
+}   

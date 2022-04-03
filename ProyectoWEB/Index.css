@@ -41,3 +41,8 @@ footer{
     background-color: ghostwhite;
     border-color: red;
     }
+
+.logo img {
+    width: 100px;
+    height: 60px;
+}
