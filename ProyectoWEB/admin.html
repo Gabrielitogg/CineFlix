@@ -39,20 +39,102 @@
                         <a class="nav-link" href="catalago.html">Categoria</a>
                     </li>
                 </ul>
-
-                <div class="container mt-3">
-                    <div class="btn">
-                        <button type="button" class="btn">Agregar nueva pelicula </button>
-                        <button type="button" class="btn btn-primary">Eliminar pelicula</button>
-                    </div>
-                </div>
-            </div>
-
                 <a class="nav-link" href="perfilusuario.html">Mi Perfil</a>
 
 
     </nav>
-
+    </div>
+    <div class="container-xl">
+        <div class="table-responsive">
+            <div class="table-wrapper">
+                <div class="table-title">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2>Control <b>De Peliculas</b></h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons"></i> <span>Agregar Pelicula</span></a>
+                            <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons"></i> <span>Eliminar pelicula</span></a>						
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nombre </th>
+                            <th>Categoria</th>
+                            <th>Ranking</th>
+                            <th>Reparto</th>
+                            <th>Director</th>  
+                            <th>Descripcion</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Morbius</td>
+                            <td>Accion/Aventura/Suspenso</td>
+                            <td>10</td>
+                            <td>Jared Leto , Michael Keaton , Adria Arjona</td>
+                            <td>Daniel Espinosa</td>
+                            <td>El bioquímico Michael Morbius intenta curarse de una rara enfermedad sanguínea pero en su lugar se infecta con un tipo de vampirismo.</td>
+                            <td>
+                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
+                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Delete"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            </td>
+                            <td>Spider-man</td>
+                            <td>Accion/Aventura/Fantacia</td>
+                            <td>01</td>
+                            <td>Tom Holland , Zendaya , Benedict Cumberbatch</td>
+                            <td>Jon Watts</td>
+                            <td>Con la identidad de Spider-Man ahora revelada, Peter recurre al Doctor Strange en busca de ayuda. Algo sale mal y el multiverso se convierte en la mayor amenaza. Ahora Peter debe descubrir qué significa realmente ser Spider-Man.</td>
+                            <td>
+                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
+                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Delete"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Wall*E</td>
+                            <td>Animacion/Aventura/Fantacia</td>
+                            <td>02</td>
+                            <td>Ben Burtt(voz) , Elissa Knight(voz) , Jeff Garlin(voz)</td>
+                            <td>Andrew Stanton</td>
+                            <td>En un futuro lejano, un pequeño robot recolector de residuos se embarca inadvertidamente en un viaje espacial que decidirá en última instancia el destino de la humanidad.</td>
+                            <td>
+                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
+                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Delete"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The Batman</td>
+                            <td>Accion/Crimen/Suspenso</td>
+                            <td>04</td>
+                            <td>Robert Pattinson , Zoë Kravitz , Jeffrey Wright</td>
+                            <td>Matt Reeves</td>
+                            <td>Cuando Enigma, un sádico asesino en serie, comienza a asesinar a las principales figuras políticas de Gotham, Batman se ve obligado a investigar la corrupción oculta de la ciudad y a cuestionar la participación de su familia.</td>
+                            <td>
+                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
+                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Delete"></i></a>
+                            </td>
+                        </tr>					
+                        <tr>
+                            <td>The Mask</td>
+                            <td> Accion/Comedia/Crimen</td>
+                            <td>07</td>
+                            <td>Jim carrey , Cameron Diaz , Peter Riegert</td>
+                            <td>Chuck Rusell</td>
+                            <td>El empleado de banca Stanley Ipkiss se transforma en un superhéroe maníaco cuando se pone una misteriosa máscara.</td>
+                            <td>
+                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
+                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="" data-original-title="Delete"></i></a>
+                            </td>
+                        </tr> 
+                    </tbody>
+                </table>
+                <div class="clearfix">
+                    <div class="hint-text">Peliculas<b> agregadas </b> recientemente</div>
               
 
 </body>
