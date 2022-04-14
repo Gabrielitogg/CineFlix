@@ -47,126 +47,76 @@
                     </li>
                 </ul>
                 <a class="nav-link" href="perfilusuario.html">Mi Perfil</a>
-
-
+            </div>
+        </div>
     </nav>
-    </div>
-    <div class="container-xl">
-        <div class="table-responsive">
-            <div class="table-wrapper">
-                <div class="table-title">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2>Control <b>De Peliculas</b></h2>
+    <div class="container padding bottom:10px;">
+        <div class="row">
+            <div class="col-md-2 hidden-sm"></div>
+            <div class="col-md-8 col-sm-12">
+                <h1>Formulario de Pelicula</h1>
+                <form action="" name="controlpelicula" enctype="multipart/form-data" method="post">
+                    <div class="form-group">
+                        <label>ID Pelicula</label>
+                        <input type="text" name="idpelicula" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre Pelicula</label>
+                        <input type="text" name="npelicula" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Director</label>
+                        <input type="text" name="director" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Reparto</label>
+                        <input type="text" name="reparto" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Categoria</label>
+                        <select name="categoria" id="categoria" class="form-control">
+                            <option value="accion">Accion</option>
+                            <option value="comedia">Comedia</option>
+                            <option value="suspenso">Suspenso</option>
+                            <option value="fantasia">Fantasia</option>
+                            <option value="drama">Drama</option>
+                            <option value="crimen">Crimen</option>
+                            <option value="animacion">Animacion</option>
+                            <option value="aventura">Aventura</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="des">Descripcion De Pelicula</label>
+                        <textarea name="descripcion" id="des" class="form-control"></textarea>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-sm-6 col-md-6">
+                            <input type="reset" class="btn btn-dark">
                         </div>
-                        <div class="col-sm-6">
-                            <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i
-                                    class="material-icons"></i> <span>Agregar Pelicula</span></a>
-                            <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i
-                                    class="material-icons"></i> <span>Eliminar pelicula</span></a>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="col-sm-6 col-md-6">
+                                <input type="submit" class="btn btn-dark">
                         </div>
                     </div>
-                </div>
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th>Nombre </th>
-                            <th>Categoria</th>
-                            <th>Ranking</th>
-                            <th>Reparto</th>
-                            <th>Director</th>
-                            <th>Descripcion</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Morbius</td>
-                            <td>Accion/Aventura/Suspenso</td>
-                            <td>10</td>
-                            <td>Jared Leto , Michael Keaton , Adria Arjona</td>
-                            <td>Daniel Espinosa</td>
-                            <td>El bioquímico Michael Morbius intenta curarse de una rara enfermedad sanguínea pero en
-                                su lugar se infecta con un tipo de vampirismo.</td>
-                            <td>
-                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons"
-                                        data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
-                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i
-                                        class="material-icons" data-toggle="tooltip" title=""
-                                        data-original-title="Delete"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            </td>
-                            <td>Spider-man</td>
-                            <td>Accion/Aventura/Fantacia</td>
-                            <td>01</td>
-                            <td>Tom Holland , Zendaya , Benedict Cumberbatch</td>
-                            <td>Jon Watts</td>
-                            <td>Con la identidad de Spider-Man ahora revelada, Peter recurre al Doctor Strange en busca
-                                de ayuda. Algo sale mal y el multiverso se convierte en la mayor amenaza. Ahora Peter
-                                debe descubrir qué significa realmente ser Spider-Man.</td>
-                            <td>
-                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons"
-                                        data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
-                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i
-                                        class="material-icons" data-toggle="tooltip" title=""
-                                        data-original-title="Delete"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Wall*E</td>
-                            <td>Animacion/Aventura/Fantacia</td>
-                            <td>02</td>
-                            <td>Ben Burtt(voz) , Elissa Knight(voz) , Jeff Garlin(voz)</td>
-                            <td>Andrew Stanton</td>
-                            <td>En un futuro lejano, un pequeño robot recolector de residuos se embarca inadvertidamente
-                                en un viaje espacial que decidirá en última instancia el destino de la humanidad.</td>
-                            <td>
-                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons"
-                                        data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
-                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i
-                                        class="material-icons" data-toggle="tooltip" title=""
-                                        data-original-title="Delete"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>The Batman</td>
-                            <td>Accion/Crimen/Suspenso</td>
-                            <td>04</td>
-                            <td>Robert Pattinson , Zoë Kravitz , Jeffrey Wright</td>
-                            <td>Matt Reeves</td>
-                            <td>Cuando Enigma, un sádico asesino en serie, comienza a asesinar a las principales figuras
-                                políticas de Gotham, Batman se ve obligado a investigar la corrupción oculta de la
-                                ciudad y a cuestionar la participación de su familia.</td>
-                            <td>
-                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons"
-                                        data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
-                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i
-                                        class="material-icons" data-toggle="tooltip" title=""
-                                        data-original-title="Delete"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>The Mask</td>
-                            <td> Accion/Comedia/Crimen</td>
-                            <td>07</td>
-                            <td>Jim carrey , Cameron Diaz , Peter Riegert</td>
-                            <td>Chuck Rusell</td>
-                            <td>El empleado de banca Stanley Ipkiss se transforma en un superhéroe maníaco cuando se
-                                pone una misteriosa máscara.</td>
-                            <td>
-                                <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons"
-                                        data-toggle="tooltip" title="" data-original-title="Edit"></i></a>
-                                <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i
-                                        class="material-icons" data-toggle="tooltip" title=""
-                                        data-original-title="Delete"></i></a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+
+                </form>
+
+            </div>
+            <div class="col-md-2 hidden-sm"></div>
+        </div>
+
+
+    </div>
+
+
 
 
 
 </body>
+<footer>
+    <p>
+        &copy; CineFlix 2022
+    </p>
+</footer>
 
 </html>

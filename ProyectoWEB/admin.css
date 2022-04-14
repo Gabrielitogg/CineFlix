@@ -98,4 +98,19 @@ footer{
         height: 60px;
     }
 
-  
+h1{
+    font-family: fantasy;
+    text-align: center;
+}
+ .form-group{
+    margin-bottom: 20px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 5px;
+    margin-top: 265px;
+}
