@@ -57,20 +57,22 @@
                 <h1>Formulario de Pelicula</h1>
                 <form action="" name="controlpelicula" enctype="multipart/form-data" method="post">
                     <div class="form-group">
-                        <label>ID Pelicula</label>
-                        <input type="text" name="idpelicula" class="form-control">
+                        <label for ="idpelicula"> ID Pelicula</label>
+                        <input id="idpelicula" name="idpelicula" title="Es obligatorio agregar id" required>
+                        <i class="fas fa-check-cirlce"></i>
+                        <i class="fas fa-exclamation-circle"></i>
                     </div>
                     <div class="form-group">
-                        <label>Nombre Pelicula</label>
-                        <input type="text" name="npelicula" class="form-control">
+                        <label for="nombrepelicula">Nombre Pelicula</label>
+                        <input id="nombrepelicula" name="nombrepelicula" title="Ingresar nombre pelicula" required>
                     </div>
                     <div class="form-group">
-                        <label>Director</label>
-                        <input type="text" name="director" class="form-control">
+                        <label for="director">Director</label>
+                        <input id="director" name="director" title="nombre director" required>
                     </div>
                     <div class="form-group">
-                        <label>Reparto</label>
-                        <input type="text" name="reparto" class="form-control">
+                        <label for="reparto">Reparto</label>
+                        <input id="reparto" name="reparto" title="reparto" required>
                     </div>
                     <div class="form-group">
                         <label>Categoria</label>
